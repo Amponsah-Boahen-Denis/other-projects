@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="externalstyle.css"> <!-- External CSS -->
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color:orange;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: orange;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        #lunch{
+            font-size: 30px;
+            letter-spacing: 2.5em;
+
+        }
+        #Breakfast{
+            font-size: 30px;
+            letter-spacing: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wisdom School of Technology</h1>
+    </header>
+    <nav>
+        <a href="#assignments">Assignments</a>
+        <a href="#exams">Exams</a>
+        <a href="#timetable">Timetable</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#teachers">Teachers</a>
+    </nav>
+    <main>
+        <section id="assignments">
+            <h2>Assignments</h2>
+            <table>
+                <thead id="thead">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Assignment</th>
+                        <th>Submission Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>English Language</td>
+                        <td>Write an essay to describe yourself</td>
+                        <td>10th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Core Mathematies</td>
+                        <td>Draw an acute angle</td>
+                        <td>11th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Social Studies</td>
+                        <td>Draw Abraham Maslow's theory of need hierarchy and explain them</td>
+                        <td>12th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Integrated Science</td>
+                        <td>Explain the terms cross and self pollination</td>
+                        <td>13th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>Explain the term Kinetic Energy and give examples</td>
+                        <td>14th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>Find the molar mass of H2O</td>
+                        <td>15th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Biology</td>
+                        <td>Write an essay to describe the type of cell division</td>
+                        <td>16th September 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Elective Mathematies</td>
+                        <td>Find the integral of (2 sin t — 4 cos 3t + sin 8t)</td>
+                        <td>17th September 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="exams">
+            <h2>Exams</h2>
+            <table border="1">
+                <thead id="thead">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Exam Date</th>
+                        <th>Time Interval</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>English Language</td>
+                        <td>24th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Elective Mathematies</td>
+                        <td>25th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Integrated Science</td>
+                        <td>26th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Core Mathematies</td>
+                        <td>27th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr> 
+                    <tr>
+                        <td>Biology</td>
+                        <td>28th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>29th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Social Studies</td>
+                        <td>30th September 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>1st October 2024</td>
+                        <td>2 Hours</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="timetable">
+            <h2>Timetable</h2>
+            <table border="1">
+                <thead id="thead">
+                    <tr>
+                        <th>Time / Days</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>8:30am - 9:30am</td>
+                        <td>English Language</td>
+                        <td>Free Period</td>
+                        <td>Social Studies</td>
+                        <td>Elective Mathematies</td>
+                        <td>Biology</td>
+                    </tr>
+                    <tr>
+                        <td>11:30am - 10:15am</td>
+                        <td colspan="5" id="Breakfast">Breakfast</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>10:15am - 11:15pm</td>
+                        <td>Biology</td>
+                        <td>Elective Mathematies</td>
+                        <td>English Language</td>
+                        <td>Physics</td>
+                        <td>Integrated Science</td>
+                    </tr>
+                    <tr>
+                        <td>11:15am - 12:15pm</td>
+                        <td>Physics</td>
+                        <td>Social Studies</td>
+                        <td>Integrated Science</td>
+                        <td>Free Period</td>
+                        <td>Chemistry</td>
+                    </tr>
+                    <tr>
+                        <td>12:15 - 1:15pm</td>
+                        <td>Integrated Science</td>
+                        <td>Core Mathematies</td>
+                        <td>Chemistry</td>
+                        <td>Core Mathematies</td>
+                        <td>Elective Mathematies</td>
+                    </tr>
+                    <tr>
+                        <td>1:15pm - 2:00pm</td>
+                        <td colspan="5" id="lunch">Lunch Break</td>
+
+                    </tr>
+                    <tr>
+                        <td>2:00am - 3:00am</td>
+                        <td>Chemistry</td>
+                        <td>Biology</td>
+                        <td>Physics</td>
+                        <td>Biology</td>
+                        <td>Games</td>
+                    </tr>
+                    
+                <tbody>
+                    <tr></tr>
+                </tbody>
+            </table>
+        <section id="Syllabus">
+            <h2>Syllabus</h2>
+            <table border="1">
+                <thead id="thead">
+                    <tr>
+                        <th>Elective Mathematies</th>
+                        <th>Biology</th>
+                        <th>Chemistry</th>
+                        <th>Physics</th>
+                        <th>Core Mathematies</th>
+                        <th>Social Studies</th>
+                        <th>English Language</th>
+                        <th>Integrated Science</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Geometry Basics</td>
+                        <td>Cell Biology</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Life cycle of Flowering Plant</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Triangles and Circles</td>
+                        <td>Biochemistry</td>
+                        <td>Chemical Bonding and Molecular Structure</td>
+                        <td>Dynamics</td>
+                        <td>Geometry Basics</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+                    <tr>
+                        <td>Coordinate Geometry</td>
+                        <td>Genetics</td>
+                        <td>States of Matter</td>
+                        <td>Rotational Motion</td>
+                        <td>Polynomials</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+                    <tr>
+                        <td>Algebraic Structures</td>
+                        <td>Evolution and Diversity</td>
+                        <td>Thermochemistry</td>
+                        <td>Simple Harmonic Motion</td>
+                        <td>Coordinate Geometry</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+                    <tr>
+                        <td>Polynomials</td>
+                        <td>Human Anatomy and Physiology</td>
+                        <td>Chemical Kinetics</td>
+                        <td>Waves</td>
+                        <td>Quadratic Equations and Functions</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+                    <tr>
+                        <td>Quadratic Equations and Functions</td>
+                        <td>Plant Biology</td>
+                        <td>Chemical Equilibrium</td>
+                        <td>Electrostatics</td>
+                        <td>Plant Biology</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+                    <tr>
+                        <td>Trigonometry</td>
+                        <td>Microbiology</td>
+                        <td>Acids and Bases</td>
+                        <td>Kinetic Theory of Gases</td>
+                        <td>Trigonometry</td>
+                        <td>Atomic Structure and Periodicity</td>
+                        <td>Kinematics</td>
+                        <td>Triangles and Circles</td>
+                    </tr>
+            </table>
+
+        </section>    
+            
+        </section>
+        <section id="subjects">
+            <h2>Subjects</h2>
+            <ul>
+                <li>English Language</li>
+                <li>Core Mathematies</li>
+                <li>Integrated Science</li>
+                <li>Social Studies</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+                <li>Physics</li>
+                <li>Elective Mathematies</li>
+            </ul>
+        </section>
+        <section id="teachers">
+            <h2>Teachers</h2>
+            <ul>
+                <li>Dr Benjamin Reginald, BR</li>
+                <li>Dr Miracle Gamor, MG</li>
+                <li>Dr Emmanuel Tottimeh, ET</li>
+                <li>Dr Boanerges Micheals, BM</li>
+                <li>Dr Musin Ainain, MA</li>
+                <li>Dr Dennis Amponsah, DA</li>
+                <li>Dr Eugene Adu, EA</li>
+                <li>Dr Gloria Alorsey, GA </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Wisdom School of Technology. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
